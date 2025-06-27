@@ -88,6 +88,7 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 1rem;
+  font-size: 0.97rem; /* zmniejszona czcionka */
 }
 
 nav a {
@@ -95,6 +96,7 @@ nav a {
   text-decoration: none;
   padding: 0.5rem 1rem;
   transition: background 0.3s;
+  white-space: nowrap; /* nie łamie tekstu */
 }
 
 nav a:hover {
@@ -1178,6 +1180,12 @@ footer {
     min-width: 100vw;
     padding-left: 0;
     padding-right: 0;
+  }
+  nav ul li {
+    display: none;
+  }
+  nav ul li:nth-child(3) {
+    display: block;
   }
 }
 
