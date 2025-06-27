@@ -39,49 +39,99 @@
   <section id="home">
     <div class="hero">
       <div class="hero-leaf-bg">
-        <svg class="animated-leaf" width="180" height="180" viewBox="0 0 180 180" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+        <svg class="animated-leaf" width="320" height="320" viewBox="0 0 320 320" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
           <g>
-            <path class="leaf-main" d="M160 20C90 40 20 110 40 160C110 180 160 110 160 20Z" fill="#4CAF50" stroke="#388E3C" stroke-width="4"/>
-            <path class="leaf-vein" d="M60 140C100 90 140 50 160 30" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
-            <path class="leaf-vein" d="M80 150C120 110 150 70 160 50" stroke="#43A047" stroke-width="2" stroke-linecap="round"/>
+            <path class="leaf-main" d="M290 40C170 80 40 210 80 290C210 320 290 210 290 40Z" fill="url(#leafGradient)" stroke="#388E3C" stroke-width="7"/>
+            <path class="leaf-vein" d="M120 260C200 170 260 90 290 60" stroke="#2E7D32" stroke-width="5" stroke-linecap="round"/>
+            <path class="leaf-vein" d="M160 280C240 200 280 130 300 90" stroke="#43A047" stroke-width="3.5" stroke-linecap="round"/>
+            <path class="leaf-vein" d="M200 300C270 230 310 170 315 120" stroke="#74c0fc" stroke-width="2.5" stroke-linecap="round"/>
           </g>
+          <defs>
+            <linearGradient id="leafGradient" x1="80" y1="290" x2="290" y2="40" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4CAF50"/>
+              <stop offset="0.5" stop-color="#00b894"/>
+              <stop offset="1" stop-color="#74c0fc"/>
+            </linearGradient>
+          </defs>
         </svg>
       </div>
       <div class="hero-content">
-        <div class="hero-title">Zrównoważone rozwiązania inżynieryjne dla środowiska</div>
-        <div class="hero-subtitle">Tworzymy projekty z myślą o przyszłych pokoleniach</div>
-        <a href="#oferta" class="hero-btn">Poznaj naszą ofertę</a>
+        <div class="hero-title">
+          Zrównoważone rozwiązania inżynieryjne dla środowiska, komfortu życia i przyszłych pokoleń.
+        </div>
+        <div class="hero-subtitle">
+          Projektujemy, wdrażamy i wspieramy nowoczesne technologie, które skutecznie chronią zasoby naturalne, poprawiają jakość życia oraz zapewniają najwyższe standardy jakości i niezawodności. Realizujemy kompleksowe projekty dla sektora publicznego i prywatnego, dbając o środowisko, przyszłe pokolenia oraz trwałe efekty. Nasze doświadczenie i innowacyjne podejście gwarantują skuteczność, bezpieczeństwo i długofalowe korzyści dla ludzi i natury.
+        </div>
+        <a href="#oferta" class="hero-btn">Sprawdź, co możemy dla Ciebie zrobić</a>
       </div>
     </div>
   </section>
 
   <section id="onas">
-    <div class="home-quality">
-      <h3>O nas</h3>
-      <p>Jesteśmy firmą zajmującą się kompleksowym doradztwem i projektowaniem rozwiązań proekologicznych dla sektora publicznego i prywatnego.</p>
-      <h3>Jakość i niezawodność</h3>
-      <p>
-        Biuro Inżynierii Środowiska to firma z wieloletnim doświadczeniem na rynku polskim. Specjalizujemy się w projektowaniu oraz wykonywaniu zaawansowanych sytemów sanitarnych i hydraulicznych.
-      </p>
-      <p>
-        Od deski kreślarskiej, aż do uruchomienia instalacji. Zajmujemy się kompleksową budową i projektowaniem skomplikowanych budowli hydrotechnicznych, m.in.:
-      </p>
-      <ul>
-        <li>stacje uzdatniania wody</li>
-        <li>oczyszczalnie ścieków</li>
-        <li>systemy odprowadzenia i zagospodarowania deszczówki</li>
-        <li>myjnie przemysłowe</li>
-      </ul>
-      <p>
-        Zarówno w przypadku nowatorskich konstrukcji, jak i standardowych rozwiązań, nasze projekty cechuje dbałość o najdrobniejsze szczegóły, które mają wpływ na długą bezawaryjną eksploatację systemu.
-      </p>
-      <h3>Solidność i terminowość</h3>
-      <p>
-        Nasi inżynierowie korzystają z najnowszych rozwiązań technicznych. Sterowanie skomplikowanym układem odbywa się, w zależności od potrzeb klienta, za pomocą mikroprocesorowych sterowników oraz optymalnie zaprogramowanych interfejsów komputerowych. Układ dziesiątek pomp i czujników dostępny jest po naciśnięciu przycisku na ekranie komputera.
-      </p>
-      <p>
-        Jeśli zależy ci na solidnej i terminowej firmie, oferującej doskonałe rozwiązania hydrotechniczne oparte na urządzeniach światowych marek skorzystaj z usług Biura Inżynierii Środowiska.
-      </p>
+    <div class="home-quality onas-flex">
+      <div class="onas-svg-col">
+        <svg class="onas-tree-svg" width="220" height="270" viewBox="0 0 220 270" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+          <g>
+            <!-- Pień drzewa -->
+            <path class="tree-trunk" d="M110 230 Q105 180 110 140 Q120 160 125 230 Q120 235 110 230 Z" fill="url(#trunkGradient)" />
+            <!-- Korona drzewa (trzy okręgi) -->
+            <ellipse class="tree-crown1" cx="110" cy="110" rx="60" ry="48" fill="url(#crownGradient1)" />
+            <ellipse class="tree-crown2" cx="75" cy="120" rx="32" ry="26" fill="url(#crownGradient2)" />
+            <ellipse class="tree-crown3" cx="145" cy="125" rx="28" ry="22" fill="url(#crownGradient3)" />
+            <!-- Dekoracyjne "liście" -->
+            <circle class="tree-leaf-anim" cx="70" cy="80" r="8" fill="#74c0fc" opacity="0.7"/>
+            <circle class="tree-leaf-anim" cx="160" cy="90" r="7" fill="#00b894" opacity="0.7"/>
+            <circle class="tree-leaf-anim" cx="120" cy="60" r="6" fill="#4CAF50" opacity="0.7"/>
+          </g>
+          <defs>
+            <linearGradient id="trunkGradient" x1="98" y1="140" x2="122" y2="230" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#8d6748"/>
+              <stop offset="1" stop-color="#5d3c1c"/>
+            </linearGradient>
+            <radialGradient id="crownGradient1" cx="0.5" cy="0.5" r="0.7" fx="0.6" fy="0.4">
+              <stop offset="0%" stop-color="#74c0fc"/>
+              <stop offset="100%" stop-color="#00b894"/>
+            </radialGradient>
+            <radialGradient id="crownGradient2" cx="0.5" cy="0.5" r="0.7" fx="0.6" fy="0.4">
+              <stop offset="0%" stop-color="#4CAF50"/>
+              <stop offset="100%" stop-color="#00b894"/>
+            </radialGradient>
+            <radialGradient id="crownGradient3" cx="0.5" cy="0.5" r="0.7" fx="0.6" fy="0.4">
+              <stop offset="0%" stop-color="#00b894"/>
+              <stop offset="100%" stop-color="#74c0fc"/>
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="onas-content-col">
+        <div class="onas-anim">
+        </div>
+        <h3>O nas</h3>
+        <p>Jesteśmy firmą zajmującą się kompleksowym doradztwem i projektowaniem rozwiązań proekologicznych dla sektora publicznego i prywatnego.</p>
+        <h3>Jakość i niezawodność</h3>
+        <p>
+          Biuro Inżynierii Środowiska to firma z wieloletnim doświadczeniem na rynku polskim. Specjalizujemy się w projektowaniu oraz wykonywaniu zaawansowanych sytemów sanitarnych i hydraulicznych.
+        </p>
+        <p>
+          Od deski kreślarskiej, aż do uruchomienia instalacji. Zajmujemy się kompleksową budową i projektowaniem skomplikowanych budowli hydrotechnicznych, m.in.:
+        </p>
+        <ul>
+          <li>stacje uzdatniania wody</li>
+          <li>oczyszczalnie ścieków</li>
+          <li>systemy odprowadzenia i zagospodarowania deszczówki</li>
+          <li>myjnie przemysłowe</li>
+        </ul>
+        <p>
+          Zarówno w przypadku nowatorskich konstrukcji, jak i standardowych rozwiązań, nasze projekty cechuje dbałość o najdrobniejsze szczegóły, które mają wpływ na długą bezawaryjną eksploatację systemu.
+        </p>
+        <h3>Solidność i terminowość</h3>
+        <p>
+          Nasi inżynierowie korzystają z najnowszych rozwiązań technicznych. Sterowanie skomplikowanym układem odbywa się, w zależności od potrzeb klienta, za pomocą mikroprocesorowych sterowników oraz optymalnie zaprogramowanych interfejsów komputerowych. Układ dziesiątek pomp i czujników dostępny jest po naciśnięciu przycisku na ekranie komputera.
+        </p>
+        <p>
+          Jeśli zależy ci na solidnej i terminowej firmie, oferującej doskonałe rozwiązania hydrotechniczne oparte na urządzeniach światowych marek skorzystaj z usług Biura Inżynierii Środowiska.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -197,3 +247,4 @@
   </footer>
 </body>
 </html>
+
