@@ -115,8 +115,8 @@ export default {
 .cta-section {
   width: 100%;
   max-width: 1200px;
-  margin: 80px auto 0;
-  padding: 60px 20px;
+  margin: 100px auto 0;
+  padding: 50px;
   background: var(--bg-light);
   border-radius: 10px;
   text-align: center;

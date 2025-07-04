@@ -190,6 +190,12 @@ export default {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
+  .logo-section {
+    margin-left: 30px;
+    margin-top: 10px;
+    transform: scale(3.5);
+  }
+
   .nav-menu.active {
     left: 0;
   }
