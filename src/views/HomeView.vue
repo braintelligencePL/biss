@@ -367,9 +367,9 @@ export default {
   }
 
   .hero-image {
-    margin-top: 70px;
-    margin-bottom: 40px;
-    transform: scale(2.5);
+    margin-top: 60px;
+    margin-bottom: 30px;
+    transform: scale(2.2);
   }
 
   .hero {
