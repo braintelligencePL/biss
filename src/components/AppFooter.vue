@@ -7,8 +7,8 @@
       </div>
       <div class="footer-section">
         <h4>Kontakt</h4>
-        <p>ul. Środowiskowa 123<br>00-001 Warszawa</p>
-        <p>Tel: +48 22 123 45 67</p>
+        <p>ul. Staroszkolna 16/28<br>85-209 Bydgoszcz</p>
+        <p>Tel: +48 52 327 65 65</p>
         <p>Email: biuro@bis.pl</p>
       </div>
       <div class="footer-section">
