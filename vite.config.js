@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     open: true
   },
-  base: '/biss',
+  base: '/biss/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets'

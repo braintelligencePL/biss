@@ -21,18 +21,25 @@
 
       <div class="about-stats">
         <div class="stat-item">
-          <span class="stat-number">150+</span>
+          <span class="stat-number">232+</span>
           <span class="stat-label">Zrealizowanych Projektów</span>
         </div>
         <div class="stat-item">
-          <span class="stat-number">15</span>
+          <span class="stat-number">20+</span>
           <span class="stat-label">Lat Doświadczenia</span>
         </div>
         <div class="stat-item">
-          <span class="stat-number">50+</span>
+          <span class="stat-number">89+</span>
           <span class="stat-label">Zadowolonych Klientów</span>
         </div>
       </div>
+    </div>
+
+    <div class="cta-section">
+      <p>Chcesz dowiedzieć się więcej o naszych usługach?</p>
+      <router-link to="/oferta" class="cta-button">
+        Zobacz Naszą Ofertę
+      </router-link>
     </div>
   </section>
 </template>
@@ -105,6 +112,40 @@ export default {
   color: var(--primary-color);
 }
 
+.cta-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 80px auto 0;
+  padding: 60px 20px;
+  background: var(--bg-light);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cta-section p {
+  margin-bottom: 25px;
+  font-size: 1.3rem;
+  color: var(--text-dark);
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 18px 40px;
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: var(--secondary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 .about-stats {
   display: flex;
   flex-direction: column;
@@ -145,6 +186,20 @@ export default {
   .stat-item {
     flex: 1;
     min-width: 150px;
+  }
+
+  .cta-section {
+    margin-top: 40px;
+    padding: 30px 20px;
+  }
+
+  .cta-section p {
+    font-size: 1.1rem;
+  }
+
+  .cta-button {
+    padding: 15px 30px;
+    font-size: 1rem;
   }
 }
 </style>

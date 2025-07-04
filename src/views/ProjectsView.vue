@@ -8,72 +8,113 @@
     <div class="projects-grid">
       <div class="project-card">
         <div class="project-image">
+          <i class="fas fa-water"></i>
+        </div>
+        <div class="project-content">
+          <h3>Budowle Hydrotechniczne</h3>
+          <p>Projekt i wykonanie budowli hydrotechnicznych obejmujących infrastrukturę wodną i regulację przepływów.</p>
+          <div class="project-details">
+            <span class="project-date">2020-2024</span>
+            <span class="project-status">Realizacje</span>
+          </div>
+          <div class="project-tags">
+            <span class="tag">Hydrotechnika</span>
+            <span class="tag">Infrastruktura wodna</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
           <i class="fas fa-industry"></i>
         </div>
         <div class="project-content">
-          <h3>Oczyszczalnia Ścieków - Kraków</h3>
-          <p>Modernizacja oczyszczalni ścieków obsługującej 50 000 mieszkańców. Projekt współfinansowany z funduszy UE.</p>
+          <h3>Modernizacja Oczyszczalni Ścieków Kapuściska - II etap</h3>
+          <p>Modernizacja oczyszczalni oraz wykonanie inteligentnego systemu zarządzania sieciami wodno-kanalizacyjnymi dla MWiK Bydgoszcz.</p>
           <div class="project-details">
-            <span class="project-date">2023</span>
-            <span class="project-value">15 mln PLN</span>
+            <span class="project-date">2018-2023</span>
+            <span class="project-value">98,2 mln PLN</span>
           </div>
           <div class="project-tags">
-            <span class="tag">Gospodarka wodna</span>
-            <span class="tag">Fundusze UE</span>
+            <span class="tag">Oczyszczalnie ścieków</span>
+            <span class="tag">Systemy inteligentne</span>
+            <span class="tag">Infrastruktura</span>
           </div>
         </div>
       </div>
 
       <div class="project-card">
         <div class="project-image">
-          <i class="fas fa-solar-panel"></i>
+          <i class="fas fa-filter"></i>
         </div>
         <div class="project-content">
-          <h3>Farma Fotowoltaiczna - Lublin</h3>
-          <p>Budowa farmy fotowoltaicznej o mocy 2 MW z systemem magazynowania energii.</p>
+          <h3>Technologie Ultrafiltracji Ścieków</h3>
+          <p>Wykonanie usług badawczych i doboru filtrów membranowych dla ultrafiltracji ścieków - zaawansowane technologie oczyszczania.</p>
           <div class="project-details">
-            <span class="project-date">2024</span>
-            <span class="project-value">8 mln PLN</span>
+            <span class="project-date">2023-2024</span>
+            <span class="project-type">Badania i doradztwo</span>
           </div>
           <div class="project-tags">
-            <span class="tag">Energia odnawialna</span>
-            <span class="tag">Fotowoltaika</span>
+            <span class="tag">Ultrafiltracja</span>
+            <span class="tag">Membrany</span>
+            <span class="tag">Badania</span>
           </div>
         </div>
       </div>
 
       <div class="project-card">
         <div class="project-image">
-          <i class="fas fa-recycle"></i>
+          <i class="fas fa-pipe-section"></i>
         </div>
         <div class="project-content">
-          <h3>Sortownia Odpadów - Gdańsk</h3>
-          <p>Nowoczesna sortownia odpadów segregowanych z linią do przetwarzania odpadów organicznych.</p>
+          <h3>Sieci Wodno-Kanalizacyjne</h3>
+          <p>Projektowanie i wykonanie sieci wodociągowych i kanalizacyjnych, przyłączy wodociągowych i kanalizacyjnych oraz instalacji towarzyszących.</p>
           <div class="project-details">
-            <span class="project-date">2023</span>
-            <span class="project-value">12 mln PLN</span>
+            <span class="project-date">2020-2024</span>
+            <span class="project-type">Projekty ciągłe</span>
           </div>
           <div class="project-tags">
-            <span class="tag">Gospodarka odpadami</span>
-            <span class="tag">Recykling</span>
+            <span class="tag">Sieci wodociągowe</span>
+            <span class="tag">Kanalizacja</span>
+            <span class="tag">Przyłącza</span>
           </div>
         </div>
       </div>
 
       <div class="project-card">
         <div class="project-image">
-          <i class="fas fa-wind"></i>
+          <i class="fas fa-cogs"></i>
         </div>
         <div class="project-content">
-          <h3>System Monitoringu Powietrza</h3>
-          <p>Wdrożenie systemu monitoringu jakości powietrza w aglomeracji śląskiej.</p>
+          <h3>Systemy Zarządzania Sieciami</h3>
+          <p>Inteligentne systemy nadzoru i zarządzania infrastrukturą wodno-kanalizacyjną z wykorzystaniem nowoczesnych technologii monitoring.</p>
           <div class="project-details">
-            <span class="project-date">2024</span>
-            <span class="project-value">5 mln PLN</span>
+            <span class="project-date">2021-2024</span>
+            <span class="project-type">Automatyka</span>
           </div>
           <div class="project-tags">
+            <span class="tag">Automatyka</span>
             <span class="tag">Monitoring</span>
-            <span class="tag">Ochrona powietrza</span>
+            <span class="tag">IoT</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <i class="fas fa-euro-sign"></i>
+        </div>
+        <div class="project-content">
+          <h3>Projekty Współfinansowane z UE</h3>
+          <p>Realizacja projektów infrastrukturalnych z wykorzystaniem funduszy europejskich w zakresie ochrony środowiska i gospodarki wodnej.</p>
+          <div class="project-details">
+            <span class="project-date">2018-2024</span>
+            <span class="project-type">Fundusze UE</span>
+          </div>
+          <div class="project-tags">
+            <span class="tag">Fundusze europejskie</span>
+            <span class="tag">Dofinansowanie</span>
+            <span class="tag">Środowisko</span>
           </div>
         </div>
       </div>
@@ -168,9 +209,20 @@ export default {
 }
 
 .project-date,
-.project-value {
+.project-value,
+.project-status,
+.project-type {
   font-weight: 600;
   color: var(--text-dark);
+  font-size: 0.9rem;
+}
+
+.project-status {
+  color: var(--secondary-color);
+}
+
+.project-type {
+  color: var(--primary-color);
 }
 
 .project-tags {

@@ -1,4 +1,3 @@
-
 <template>
   <section class="offer-section">
     <div class="section-header">
@@ -52,6 +51,54 @@
           <li>Systemy geotermalne</li>
           <li>Farmy wiatrowe</li>
           <li>Energia z biomasy</li>
+        </ul>
+      </div>
+
+      <div class="offer-card">
+        <i class="fas fa-tint"></i>
+        <h3>Stacje Uzdatniania Wody</h3>
+        <p>Projektowanie i budowa nowoczesnych stacji uzdatniania wody pitnej oraz przemysłowej.</p>
+        <ul>
+          <li>Stacje uzdatniania wody pitnej</li>
+          <li>Uzdatnianie wody przemysłowej</li>
+          <li>Systemy filtracji</li>
+          <li>Modernizacja istniejących stacji</li>
+        </ul>
+      </div>
+
+      <div class="offer-card">
+        <i class="fas fa-cogs"></i>
+        <h3>Oczyszczalnie Ścieków</h3>
+        <p>Kompleksowe rozwiązania w zakresie oczyszczania ścieków komunalnych i przemysłowych.</p>
+        <ul>
+          <li>Oczyszczalnie komunalne</li>
+          <li>Oczyszczalnie przemysłowe</li>
+          <li>Biologiczne oczyszczanie</li>
+          <li>Systemy sterowania</li>
+        </ul>
+      </div>
+
+      <div class="offer-card">
+        <i class="fas fa-cloud-rain"></i>
+        <h3>Systemy Deszczówki</h3>
+        <p>Projektowanie systemów odprowadzenia i zagospodarowania wód opadowych.</p>
+        <ul>
+          <li>Systemy odprowadzenia</li>
+          <li>Zagospodarowanie deszczówki</li>
+          <li>Retencja wód opadowych</li>
+          <li>Infiltracja do gruntu</li>
+        </ul>
+      </div>
+
+      <div class="offer-card">
+        <i class="fas fa-industry"></i>
+        <h3>Myjnie Przemysłowe</h3>
+        <p>Specjalistyczne systemy mycia i czyszczenia dla przemysłu i transportu.</p>
+        <ul>
+          <li>Myjnie samochodowe</li>
+          <li>Myjnie przemysłowe</li>
+          <li>Systemy recyrkulacji wody</li>
+          <li>Instalacje ciśnieniowe</li>
         </ul>
       </div>
     </div>
