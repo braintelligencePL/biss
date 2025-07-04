@@ -366,6 +366,12 @@ export default {
     padding: 90px 0 60px 0;
   }
 
+  .hero-image {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    transform: scale(2.5);
+  }
+
   .hero {
     grid-template-columns: 1fr;
     gap: 40px;
